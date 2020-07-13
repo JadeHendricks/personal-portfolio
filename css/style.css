@@ -315,7 +315,8 @@ strong {
     font-weight: 600; }
 
 .skills {
-  color: #000000; }
+  color: #000000;
+  background-color: #f2f2f2; }
   .skills__heading {
     text-align: center;
     padding: 4rem 0 4rem 0; }
@@ -337,13 +338,12 @@ strong {
     color: currentColor; }
 
 .portfolio__heading {
-  text-align: center;
-  border-bottom: 0.1rem solid gray;
-  padding-bottom: 4rem; }
+  padding: 4rem 0 4rem 0;
+  text-align: center; }
 
 .portfolio__block {
   padding: 8rem 0; }
-  .portfolio__block:nth-child(even) {
+  .portfolio__block:nth-child(odd) {
     background-color: #f2f2f2; }
 
 .portfolio__wrapper {

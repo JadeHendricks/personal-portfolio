@@ -1,5 +1,6 @@
 .skills {
     color: #000000;
+    background-color: #f2f2f2;
     &__heading {
         text-align: center;
         padding: 4rem 0 4rem 0;
@@ -28,13 +29,12 @@
 
 .portfolio {
     &__heading {
+        padding: 4rem 0 4rem 0;
         text-align: center;
-        border-bottom: 0.1rem solid $light-grey;
-        padding-bottom: 4rem;
     }
     &__block {
         padding: 8rem 0;
-        &:nth-child(even) {
+        &:nth-child(odd) {
             background-color: #f2f2f2;
         }
     }
