@@ -1,6 +1,6 @@
 .header {
-    background-color: $blue;
-    padding: 15rem 0;
+    background-color: $grey;
+    padding: 20rem 0 15rem 0;
     text-align: center;
     color: #ffffff;
     &__title {
@@ -9,6 +9,6 @@
     }
     &__description {
         color: currentColor;
-        margin-bottom: 2.5rem;
+        margin-bottom: 5rem;
     }
 }

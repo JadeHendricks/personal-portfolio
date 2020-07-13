@@ -1,41 +1,50 @@
 .skills {
-    color: #000000;
-    background-color: #f2f2f2;
+    color: $light-grey-1;
+    background-color: $dark-grey;
+    padding: 10rem 0 6rem 0;
     &__heading {
         text-align: center;
-        padding: 4rem 0 4rem 0;
+        margin-bottom: 6rem;
     }
     &__wrapper {
         display: flex;
+        justify-content: flex-start;
         flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 4rem 0 4rem 0;
     }
     &__block {
-        flex: 0 1 32%;
-        padding-bottom: 8rem;
-        text-align: center;
+        margin: 0 1%;
+        flex: 0 1 31%;
+        margin-bottom: 4rem;
+        background-color: $grey;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        border-radius: 1.5rem;
+        &:first-child {
+            background-color: $primary-color;
+            & > .skills__title {
+                color: $dark-grey; 
+            }
+        }
     }
     &__title {
-        margin-bottom: 1rem;
-        color: #2f3a8a;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-    &__description {
-        color: currentColor;
+        color: $light-grey-1;
+        text-align: center;
+        padding: 3rem;
+        line-height: 1.4;
     }
 }
 
 .portfolio {
+    background-color: $grey;
+    padding: 10rem 0 0 0;
     &__heading {
-        padding: 4rem 0 4rem 0;
+        margin-bottom: 4rem;
         text-align: center;
+        color: $light-grey-1;
     }
     &__block {
-        padding: 8rem 0;
+        padding: 5rem 0;
         &:nth-child(odd) {
-            background-color: #f2f2f2;
+            background-color: $dark-grey;
         }
     }
     &__wrapper {
@@ -59,11 +68,14 @@
     &__information > * {
         margin-bottom: 2rem;
     }
+    &__title {
+        color: $light-grey-1;
+    }
     &__description {
-        color: $light-grey;
+        color: $light-grey-2;
     }
     &__tools {
-        color: $light-grey;
+        color: $primary-color;
         margin-bottom: 4rem;
     }
     &__button-container {
