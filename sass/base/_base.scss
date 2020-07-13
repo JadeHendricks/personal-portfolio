@@ -14,3 +14,17 @@ html {
 body {
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 114rem;
+    display: block;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.container-smaller {
+    max-width: 70rem;
+    display: block;
+    padding: 0 2rem;
+    margin: 0 auto;
+}

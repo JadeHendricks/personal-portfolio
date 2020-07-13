@@ -1,0 +1,23 @@
+.skills {
+    padding: 10rem 0;
+    color: #000000;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__block {
+        flex: 0 1 32%;
+        margin-bottom: 8rem;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 1rem;
+        color: #2f3a8a;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &__description {
+        color: currentColor;
+    }
+}

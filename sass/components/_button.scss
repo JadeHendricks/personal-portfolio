@@ -1,0 +1,13 @@
+.button {
+    border: 0;
+    padding: 1.5rem 4rem;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: transparent;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.button--yellow {
+    background: linear-gradient(180deg,#f2cf00 0,#f2b200 100%);
+}

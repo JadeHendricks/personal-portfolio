@@ -1,0 +1,14 @@
+.header {
+    background-color: #2f3a8a;
+    padding: 10rem 0 8rem 0;
+    text-align: center;
+    color: #ffffff;
+    &__title {
+        color: currentColor;
+        margin-bottom: 1.5rem;
+    }
+    &__description {
+        color: currentColor;
+        margin-bottom: 2.5rem;
+    }
+}
