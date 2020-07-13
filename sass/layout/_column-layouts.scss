@@ -1,14 +1,18 @@
 .skills {
-    padding: 10rem 0;
     color: #000000;
+    &__heading {
+        text-align: center;
+        padding: 4rem 0 4rem 0;
+    }
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding: 4rem 0 4rem 0;
     }
     &__block {
         flex: 0 1 32%;
-        margin-bottom: 8rem;
+        padding-bottom: 8rem;
         text-align: center;
     }
     &__title {
@@ -19,5 +23,57 @@
     }
     &__description {
         color: currentColor;
+    }
+}
+
+.portfolio {
+    &__heading {
+        text-align: center;
+        border-bottom: 0.1rem solid $light-grey;
+        padding-bottom: 4rem;
+    }
+    &__block {
+        padding: 8rem 0;
+        &:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    }
+    &__wrapper {
+        max-width: 114rem;
+        padding: 0 2rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__image-container {
+        max-width: 57rem;
+        max-height: 30rem;
+    }
+    &__image {
+        width: 100%;
+        height: 100%;
+    }
+    &__information {
+        padding: 0 5rem;
+    }
+    &__information > * {
+        margin-bottom: 2rem;
+    }
+    &__description {
+        color: $light-grey;
+    }
+    &__tools {
+        color: $light-grey;
+        margin-bottom: 4rem;
+    }
+    &__button-container {
+        display: flex;
+        justify-content: flex-start;
+        & button {
+            margin-bottom: 0;
+        }
+        & button:first-child {
+            margin-right: 1.5rem;
+        }
     }
 }
