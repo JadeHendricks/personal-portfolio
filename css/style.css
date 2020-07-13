@@ -275,6 +275,44 @@ strong {
     border: 0.1rem solid #2f3a8a;
     color: #2f3a8a; }
 
+.contactform {
+  display: flex;
+  flex-direction: column; }
+  .contactform__header {
+    margin-bottom: 1rem; }
+  .contactform__information {
+    margin-bottom: 6rem;
+    font-size: 1.8rem; }
+    .contactform__information > a {
+      color: #f2cf00;
+      text-decoration: none;
+      font-weight: 700; }
+  .contactform__group {
+    margin-bottom: 2.5rem; }
+  .contactform__label {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    display: block; }
+  .contactform__input {
+    width: 100%;
+    font-size: 1.6rem;
+    display: block;
+    border: 0;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border-radius: 1.2rem; }
+  .contactform__textarea {
+    min-height: 20rem;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    font-size: 1.6rem;
+    display: block;
+    border: 0;
+    border-radius: 1.2rem;
+    outline: none; }
+  .contactform button {
+    align-self: flex-end; }
+
 .navigation {
   background-color: #192369;
   padding: 2rem 0;
@@ -402,5 +440,5 @@ strong {
 .footer-lower {
   color: #ffffff;
   background-color: #192369;
-  padding: 2rem 0;
+  padding: 3rem 0;
   text-align: center; }

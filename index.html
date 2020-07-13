@@ -173,11 +173,28 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="container">
+            <div class="container-smaller">
+                <form class="contactform"> 
+                    <h2 class="contactform__header">Let's talk.</h2>
+                    <p class="contactform__information">Get in touch via the form below, or by emailing <a href="mailto: hendricksjade@gmail.com">hendricksjade@gmail.com</a>.</p>
+                    <div class="contactform__group">
+                        <label for="name" class="contactform__label">Name</label>
+                        <input type="text" id="name" class="contactform__input" name="name" placeholder="Full name" required />
+                    </div>
+                    <div class="contactform__group">
+                        <label for="email" class="contactform__label">Email</label>
+                        <input type="email" id="email" class="contactform__input" name="email" placeholder="you@example.com" required/>
+                    </div>
+                    <div class="contactform__group">
+                        <label for="message" class="contactform__label">Message</label>
+                        <textarea type="message" id="message" class="contactform__textarea" name="message" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="button button--yellow button--dropshadow">Send</button>
+                </form>
             </div>
         </footer>
         <div class="footer-lower">
-            <p>Copyright ©2020 All rights reserved</p>
+            <p>Copyright ©2020 All rights reserved &nbsp;|&nbsp; Jade Hendricks</p>
         </div>
     </body>
 </html>
