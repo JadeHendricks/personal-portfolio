@@ -1,5 +1,5 @@
 .navigation {
-    background-color: #192369;
+    background-color: $dark-blue;
     padding: 2rem 0;
     font-size: 1.8rem;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -9,14 +9,14 @@
         align-items: center;
     }
     &__logo {
-        color: #ffffff;
+        color: $white;
         display: flex;
         align-items: center;
         margin-right: 1.5rem;
         &-icon {
             width: 2.5rem;
             height: 2.5rem;
-            fill: #ffffff;
+            fill: $white;
         }
         a {
             font-size: 2.2rem;
@@ -30,7 +30,7 @@
 .navigation-menu {
     display: flex;
     list-style-type: none;
-    color: #ffffff;
+    color: $white;
     &__li {
         font-size: 1.6rem;
         margin-right: 3rem;
