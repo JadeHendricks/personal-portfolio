@@ -346,7 +346,8 @@ strong {
 
 .skills {
   color: #ebebec;
-  background-color: #252734;
+  background: linear-gradient(90deg, #252734 1.7rem, transparent 1%) center, linear-gradient(#252734 1.7rem, transparent 1%) center, #c0c1c6;
+  background-size: 1.8rem 1.8rem;
   padding: 10rem 0 6rem 0; }
   .skills__heading {
     text-align: center;
@@ -369,7 +370,7 @@ strong {
   .skills__title {
     color: #ebebec;
     text-align: center;
-    padding: 3rem;
+    padding: 2.5rem;
     line-height: 1.4; }
 
 .portfolio {
@@ -380,9 +381,10 @@ strong {
     text-align: center;
     color: #ebebec; }
   .portfolio__block {
-    padding: 5rem 0; }
+    padding: 10rem 0; }
     .portfolio__block:nth-child(odd) {
-      background-color: #252734; }
+      background: linear-gradient(90deg, #252734 1.7rem, transparent 1%) center, linear-gradient(#252734 1.7rem, transparent 1%) center, #c0c1c6;
+      background-size: 1.8rem 1.8rem; }
   .portfolio__wrapper {
     max-width: 114rem;
     padding: 0 2rem;
@@ -416,7 +418,7 @@ strong {
 
 .header {
   background-color: #333646;
-  padding: 20rem 0 15rem 0;
+  padding: 20rem 0;
   text-align: center;
   color: #ffffff; }
   .header__title {
@@ -433,6 +435,7 @@ strong {
 
 .footer-lower {
   color: #ffffff;
-  background-color: #252734;
+  background: linear-gradient(90deg, #252734 1.7rem, transparent 1%) center, linear-gradient(#252734 1.7rem, transparent 1%) center, #c0c1c6;
+  background-size: 1.8rem 1.8rem;
   padding: 3rem 0;
   text-align: center; }

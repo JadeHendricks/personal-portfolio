@@ -1,6 +1,10 @@
 .skills {
     color: $light-grey-1;
-    background-color: $dark-grey;
+    background:
+    linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+    background-size: $dot-space $dot-space;
     padding: 10rem 0 6rem 0;
     &__heading {
         text-align: center;
@@ -28,7 +32,7 @@
     &__title {
         color: $light-grey-1;
         text-align: center;
-        padding: 3rem;
+        padding: 2.5rem;
         line-height: 1.4;
     }
 }
@@ -42,9 +46,13 @@
         color: $light-grey-1;
     }
     &__block {
-        padding: 5rem 0;
+        padding: 10rem 0;
         &:nth-child(odd) {
-            background-color: $dark-grey;
+            background:
+            linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+            linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+            $dot-color;
+            background-size: $dot-space $dot-space;
         }
     }
     &__wrapper {
