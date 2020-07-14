@@ -6,11 +6,7 @@
 
 .footer-lower {
     color: $white;
-    background:
-    linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
-    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
-    $dot-color;
-    background-size: $dot-space $dot-space;
+    background-color: $dark-grey;
     padding: 3rem 0;
     text-align: center;
 }

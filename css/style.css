@@ -257,6 +257,7 @@ strong {
   border-radius: 2rem;
   font-size: 1.6rem;
   font-weight: 400;
+  position: relative;
   background-color: transparent;
   cursor: pointer; }
   .button--dropshadow {
@@ -266,6 +267,21 @@ strong {
   .button--outlineYellow {
     border: 0.1rem solid #f2cf00;
     color: #f2cf00; }
+  .button--withIconL {
+    padding-left: 4.5rem; }
+  .button--withIconR {
+    padding-right: 4.5rem; }
+  .button > svg {
+    position: absolute;
+    top: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: currentColor;
+    transform: translateY(-50%); }
+    .button > svg.left {
+      left: 1.5rem; }
+    .button > svg.right {
+      right: 1.5rem; }
 
 .contactform {
   display: flex;
@@ -322,7 +338,8 @@ strong {
     .navigation__logo-icon {
       width: 2.5rem;
       height: 2.5rem;
-      fill: #ffffff; }
+      fill: #ffffff;
+      margin-right: 1.5rem; }
     .navigation__logo a {
       font-size: 2.2rem;
       color: currentColor;
@@ -362,16 +379,21 @@ strong {
     margin-bottom: 4rem;
     background-color: #333646;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    border-radius: 1.5rem; }
-    .skills__block:first-child {
-      background-color: #ffaf29; }
-      .skills__block:first-child > .skills__title {
-        color: #252734; }
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem; }
+  .skills__icon {
+    fill: #ffffff;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex: 0 0 2.5rem;
+    margin-right: 1.5rem; }
   .skills__title {
     color: #ebebec;
-    text-align: center;
-    padding: 2.5rem;
-    line-height: 1.4; }
+    line-height: 1.4;
+    flex: 1; }
 
 .portfolio {
   background-color: #333646;
@@ -435,7 +457,6 @@ strong {
 
 .footer-lower {
   color: #ffffff;
-  background: linear-gradient(90deg, #252734 1.7rem, transparent 1%) center, linear-gradient(#252734 1.7rem, transparent 1%) center, #c0c1c6;
-  background-size: 1.8rem 1.8rem;
+  background-color: #252734;
   padding: 3rem 0;
   text-align: center; }

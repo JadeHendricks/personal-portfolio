@@ -4,6 +4,7 @@
     border-radius: 2rem;
     font-size: 1.6rem;
     font-weight: 400;
+    position: relative;
     background-color: transparent;
     cursor: pointer;
     &--dropshadow {
@@ -15,5 +16,21 @@
     &--outlineYellow {
         border: 0.1rem solid $yellow;
         color: $yellow;
+    }
+    &--withIconL {
+        padding-left: 4.5rem;
+    }
+    &--withIconR {
+        padding-right: 4.5rem;
+    }
+    & > svg {
+        position: absolute;
+        top: 50%;
+        width: 1.8rem;
+        height: 1.8rem;
+        fill: currentColor;
+        transform: translateY(-50%);
+        &.left { left: 1.5rem; }
+        &.right{ right: 1.5rem; }
     }
 }
