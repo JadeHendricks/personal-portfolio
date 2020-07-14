@@ -1,5 +1,8 @@
 .navigation {
-    background-color: $grey;
+    background-color: lightseagreen;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
     padding: 2rem 0;
     font-size: 1.8rem;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
