@@ -259,14 +259,23 @@ strong {
   font-weight: 400;
   position: relative;
   background-color: transparent;
-  cursor: pointer; }
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s; }
   .button--dropshadow {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
   .button--yellow {
     background: linear-gradient(180deg, #f2cf00 0, #f2b200 100%); }
+    .button--yellow:hover {
+      background: linear-gradient(180deg, #ffffff 0, #ffffff 100%);
+      transform: translateY(-0.5rem); }
   .button--outlineYellow {
     border: 0.1rem solid #f2cf00;
     color: #f2cf00; }
+    .button--outlineYellow:hover {
+      background: linear-gradient(180deg, #f2cf00 0, #f2b200 100%);
+      color: #000000;
+      transform: translateY(-0.5rem); }
   .button--withIconL {
     padding-left: 4.5rem; }
   .button--withIconR {
@@ -335,6 +344,7 @@ strong {
     border-radius: 1.2rem;
     outline: none; }
   .contactform button {
+    margin-top: 2rem;
     align-self: flex-end; }
 
 @media screen and (max-width: 991px) {

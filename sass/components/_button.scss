@@ -6,16 +6,27 @@
     font-weight: 400;
     position: relative;
     background-color: transparent;
+    outline: none;
     cursor: pointer;
+    transition: all 0.4s;
     &--dropshadow {
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
     &--yellow {
         background: linear-gradient(180deg, $yellow 0, $dark-yellow 100%);
+        &:hover {
+           background: linear-gradient(180deg, $white 0, $white 100%);
+           transform: translateY(-0.5rem);
+        }
     }
     &--outlineYellow {
         border: 0.1rem solid $yellow;
         color: $yellow;
+        &:hover {
+            background: linear-gradient(180deg, $yellow 0, $dark-yellow 100%);
+            color: $black;
+            transform: translateY(-0.5rem);
+         }
     }
     &--withIconL {
         padding-left: 4.5rem;
