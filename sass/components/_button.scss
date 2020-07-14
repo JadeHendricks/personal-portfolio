@@ -34,3 +34,22 @@
         &.right{ right: 1.5rem; }
     }
 }
+
+@media screen and (max-width: 991px) {
+    .button {
+        padding: 1.5rem 3rem;
+        font-size: 1.4rem;
+        &--withIconL {
+            padding-left: 3.5rem;
+        }
+        &--withIconR {
+            padding-right: 3.5rem;
+        }
+        & > svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            &.left { left: 1rem; }
+            &.right{ right: 1rem; }
+        }
+    }
+}

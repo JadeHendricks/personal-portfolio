@@ -44,3 +44,25 @@
         align-self: flex-end;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .contactform {
+        &__information {
+            margin-bottom: 4rem;
+            font-size: 1.6rem;
+        }
+        &__group {
+            margin-bottom: 1.5rem;
+        }
+        &__label {
+            font-size: 1.6rem;
+        }
+        &__input {
+            font-size: 1.4rem;
+        }
+        &__textarea {
+            font-size: 1.4rem;
+        }
+    }
+    
+}

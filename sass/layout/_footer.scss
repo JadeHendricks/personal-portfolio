@@ -10,3 +10,18 @@
     padding: 3rem 0;
     text-align: center;
 }
+
+@media screen and (max-width: 991px) {
+    .footer {
+        padding: 4rem 0;
+    }
+    .footer-lower {
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .footer-lower > p {
+        font-size: 1.2rem;
+    }
+}

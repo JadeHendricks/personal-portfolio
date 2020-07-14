@@ -26,7 +26,7 @@
             font-size: 2.2rem;
             color: currentColor;
             text-decoration: none;
-            font-weight: 900;
+            font-weight: 700;
         }
     }
 }
@@ -47,5 +47,52 @@
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navigation {
+        &__logo {
+            margin-right: 1rem;
+            &-icon {
+                margin-right: 1.5rem;
+            }
+            a {
+                font-size: 2rem;
+            }
+        }
+    }
+    
+    .navigation-menu {
+        &__li {
+            font-size: 1.4rem;
+            margin-right: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .navigation {
+        padding: 1.5rem 0;
+        font-size: 1.8rem;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__logo {
+            margin-right: 0;
+            margin-bottom: 1rem;
+            &-icon {
+                width: 3rem;
+                height: 3rem;
+            }
+        }
+    }
+    
+    .navigation-menu {
+        &__li {
+            font-size: 1.2rem;
+            margin-right: 1.5rem;
+        }
     }
 }
