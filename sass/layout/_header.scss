@@ -1,14 +1,21 @@
 .header {
     background-color: $grey;
-    padding: 26.5rem 0 20rem 0;
-    text-align: center;
+    padding: 30rem 0 10rem 0;
+    position: relative;
     color: #ffffff;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__information {
+        flex: 0 0 60%; 
+    }
     &__title {
         color: currentColor;
         margin-bottom: 1.5rem;
     }
     &__description {
         color: currentColor;
-        margin-bottom: 5rem;
+        margin-bottom: 4rem;
     }
 }
