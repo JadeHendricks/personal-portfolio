@@ -1,7 +1,22 @@
+.heading-information {
+    margin-bottom: 4rem;
+    &__title {
+        margin-bottom: 0.5rem;
+    }
+    &__tag {
+        margin-bottom: 1.5rem;
+    }
+    &__description {
+        line-height: 1.6;
+    } 
+}    
+
 .skills {
     color: $light-grey-1;
+    background: url('../assets/seven-shape3.png') no-repeat;
+    background-size: cover;
     background-color: $dark-grey;
-    padding: 30rem 0 15rem 0;
+    padding: 35rem 0 15rem 0;
     &__heading {
         margin-bottom: 6rem;
     }
@@ -73,6 +88,7 @@
     &__heading {
         margin-bottom: 4rem;
         text-align: center;
+        text-transform: uppercase;
         color: $light-grey-1;
     }
     &__block {

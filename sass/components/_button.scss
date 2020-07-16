@@ -8,6 +8,9 @@
     outline: none;
     cursor: pointer;
     transition: all 0.4s;
+    text-decoration: none;
+    color: $black;
+    text-align: center;
     &--dropshadow {
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
