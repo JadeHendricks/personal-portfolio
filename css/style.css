@@ -377,7 +377,9 @@ strong {
   position: absolute;
   bottom: 30%;
   right: -55%;
-  width: 50%; }
+  width: 50%;
+  background-color: #424657;
+  padding: 2rem; }
 
 .card {
   color: #ffffff;
@@ -477,9 +479,7 @@ strong {
     margin-right: 1.5rem; } }
 
 .heading-information {
-  margin-bottom: 4rem;
-  background-color: #424657;
-  padding: 2rem; }
+  margin-bottom: 4rem; }
   .heading-information__title {
     margin-bottom: 0.5rem; }
   .heading-information__tag {
