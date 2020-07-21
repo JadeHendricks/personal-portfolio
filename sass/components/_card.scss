@@ -2,7 +2,7 @@
     width: 85%;
     display: block;
     margin-right: auto;
-    transform: translateY(65%);
+    transform: translateY(40%);
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -13,7 +13,7 @@
 
 .work-information {
     position: absolute;
-    bottom: 50%;
+    bottom: 30%;
     right: -55%;
     width: 50%;
 }
