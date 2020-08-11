@@ -31,18 +31,20 @@
     flex: 0 1 32%;
     background-color: $card-grey;
     margin-bottom: 3rem;
+    padding: 0;
    &__image-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 2rem; 
+    margin-bottom: 1.5rem; 
     height: auto;
    }
    &__image {
        width: 100%;
        height: 100%;
+       object-fit: cover;
    }
    &__information {
-       margin-bottom: 4rem;
+       padding: 2rem;
    }
    &__title {
     margin-bottom: 1.5rem;
@@ -52,5 +54,6 @@
    }
    & a.button {
        display: block;
+       margin: 2rem;
    }
 }

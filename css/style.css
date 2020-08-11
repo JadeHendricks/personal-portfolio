@@ -390,23 +390,26 @@ strong {
 .work-card {
   flex: 0 1 32%;
   background-color: #424657;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  padding: 0; }
   .work-card__image-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     height: auto; }
   .work-card__image {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    object-fit: cover; }
   .work-card__information {
-    margin-bottom: 4rem; }
+    padding: 2rem; }
   .work-card__title {
     margin-bottom: 1.5rem; }
   .work-card__description {
     font-size: 1.6rem; }
   .work-card a.button {
-    display: block; }
+    display: block;
+    margin: 2rem; }
 
 .navigation {
   background-color: #333646;
@@ -643,7 +646,7 @@ strong {
     top: 0;
     width: 100%;
     height: 100%;
-    background: url("../assets/jade-wf.png") right bottom no-repeat; }
+    background: url("../assets/Untitled-1.png") 80% 25% no-repeat; }
   .header__wrapper {
     display: flex;
     align-items: center; }
