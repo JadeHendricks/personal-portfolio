@@ -23,6 +23,23 @@ body {
   padding: 0 2rem;
   margin: 0 auto; }
 
+.home-portfolio {
+  background-color: #333646;
+  padding: 6rem 0; }
+  .home-portfolio .heading-information {
+    margin-bottom: 10rem;
+    text-align: center;
+    color: #ffffff; }
+    .home-portfolio .heading-information__tag {
+      margin-bottom: 4rem; }
+    .home-portfolio .heading-information .button {
+      width: 30%; }
+    .home-portfolio .heading-information span {
+      display: block;
+      margin: 2rem 0;
+      font-size: 1.8rem;
+      font-weight: 700; }
+
 *,
 html,
 body {
@@ -310,58 +327,6 @@ strong {
       .button > svg.right {
         right: 1rem; } }
 
-.contactform {
-  display: flex;
-  flex-direction: column; }
-  .contactform__header {
-    margin-bottom: 1rem; }
-  .contactform__information {
-    margin-bottom: 6rem;
-    font-size: 1.8rem; }
-    .contactform__information > a {
-      color: #ffaf29;
-      text-decoration: none;
-      font-weight: 700; }
-  .contactform__group {
-    margin-bottom: 2.5rem; }
-  .contactform__label {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    display: block; }
-  .contactform__input {
-    width: 100%;
-    font-size: 1.6rem;
-    display: block;
-    border: 0;
-    padding: 1rem 1.5rem;
-    outline: none;
-    border-radius: 1.2rem; }
-  .contactform__textarea {
-    min-height: 20rem;
-    padding: 1rem 1.5rem;
-    width: 100%;
-    font-size: 1.6rem;
-    display: block;
-    border: 0;
-    border-radius: 1.2rem;
-    outline: none; }
-  .contactform button {
-    margin-top: 2rem;
-    align-self: flex-end; }
-
-@media screen and (max-width: 991px) {
-  .contactform__information {
-    margin-bottom: 4rem;
-    font-size: 1.6rem; }
-  .contactform__group {
-    margin-bottom: 1.5rem; }
-  .contactform__label {
-    font-size: 1.6rem; }
-  .contactform__input {
-    font-size: 1.4rem; }
-  .contactform__textarea {
-    font-size: 1.4rem; } }
-
 .work {
   width: 85%;
   display: block;
@@ -410,6 +375,22 @@ strong {
   .work-card a.button {
     display: block;
     margin: 2rem; }
+
+.repos a {
+  color: #24292e;
+  margin: 0 1rem 1rem 0;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  box-shadow: 0 1px 0 rgba(27, 31, 35, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  padding: 1rem 2rem 1rem 3.5rem;
+  font-size: 1.6rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  background: #fafbfc url("../assets/repo-icon.png") no-repeat 1rem;
+  background-size: 1.5rem 1.5rem; }
+  .repos a:last-child {
+    margin-right: 0; }
 
 .navigation {
   background-color: #333646;
@@ -546,7 +527,7 @@ strong {
 
 .portfolio {
   background-color: #333646;
-  padding: 15rem 0; }
+  padding: 15rem 0 0 0; }
   .portfolio__heading {
     margin-bottom: 4rem;
     text-align: center;
