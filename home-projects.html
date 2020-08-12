@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,600,700,800,900%7CNunito+Sans:200,300,regular,600,700,800,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <title>Jade Hendricks | Web Developer</title>
+    </head>
+    <body>
+        <nav class="navigation">
+            <div class="container">
+                <div class="navigation__wrapper">
+                    <div class="navigation__logo">
+                        <svg class="navigation__logo-icon">
+                            <use xlink:href="assets/sprite.svg#icon-diamond"></use>
+                        </svg>
+                        <a href="/">Jade Hendricks</a>
+                    </div>
+                    <ul class="navigation-menu">
+                        <li class="navigation-menu__li"><a class="navigation-menu__link" href="/">Go Back</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section id="portfolio" class="portfolio">
+                <h2 class="portfolio__heading">My Home Projects</h2>
+                <div class="portfolio__block">
+                    <div class="portfolio__wrapper">
+                        <div class="portfolio__image-container">
+                            <img src="/assets/multi-user-bloglaptop.png" alt="Multi User Blog" title="Multi User Blog" class="portfolio__image" />
+                        </div>
+                        <div class="portfolio__information">
+                            <h2 class="portfolio__title">Multi User Blog</h2>
+                            <p class="portfolio__description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsam saepe, facilis labore adipisci assumenda. 
+                            </p>
+                            <p class="portfolio__tools">
+                                <span>Tools I used:</span>
+                                ReactJS, Context API, MongoDB, Express, Node, CSS, HTML
+                            </p>
+                            <div class="portfolio__button-container">
+                                <button class="button button--yellow button--withIconL">
+                                    See project
+                                    <svg class="left"><use xlink:href="assets/sprite.svg#icon-github"></use></svg>
+                                </button>
+                                <button class="button button--outlineYellow button--withIconR">
+                                    Visit site
+                                    <svg class="right"><use xlink:href="assets/sprite.svg#icon-arrow-right"></use></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__block">
+                    <div class="portfolio__wrapper portfolio__wrapper--mobile-reverse">
+                        <div class="portfolio__information">
+                            <h2 class="portfolio__title">The Movie DB v2</h2>
+                            <p class="portfolio__description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsam saepe, facilis labore adipisci assumenda. 
+                            </p>
+                            <p class="portfolio__tools">
+                                <span>Tools I used:</span>
+                                ReactJS, Context API, CSS, HTML
+                            </p>
+                            <div class="portfolio__button-container">
+                                <button class="button button--yellow button--withIconL">
+                                    See project
+                                    <svg class="left"><use xlink:href="assets/sprite.svg#icon-github"></use></svg>
+                                </button>
+                                <button class="button button--outlineYellow button--withIconR">
+                                    Visit site
+                                    <svg class="right"><use xlink:href="assets/sprite.svg#icon-arrow-right"></use></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio__image-container">
+                            <img src="/assets/movieDB-laptop.png" alt="The Movie DB v2" title="The Movie DB v2" class="portfolio__image" />
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__block">
+                    <div class="portfolio__wrapper">
+                        <div class="portfolio__image-container">
+                            <img src="/assets/mern-boilerplatelaptop.png" alt="The Ultimate Authentication Boilterplate" title="The Ultimate Authentication Boilterplate" class="portfolio__image" />
+                        </div>
+                        <div class="portfolio__information">
+                            <h2 class="portfolio__title">Mern Authentication Boilerplate</h2>
+                            <p class="portfolio__description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsam saepe, facilis labore adipisci assumenda. 
+                            </p>
+                            <p class="portfolio__tools">
+                                <span>Tools I used:</span>
+                                ReactJS, Context API, MongoDB, Express, Node, CSS, HTML
+                            </p>
+                            <div class="portfolio__button-container">
+                                <button class="button button--yellow button--withIconL">
+                                    See project
+                                    <svg class="left"><use xlink:href="assets/sprite.svg#icon-github"></use></svg>
+                                </button>
+                                <button class="button button--outlineYellow button--withIconR">
+                                    Visit site
+                                    <svg class="right"><use xlink:href="assets/sprite.svg#icon-arrow-right"></use></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="home-portfolio">
+                <div class="container">
+                    <div id="repos" class="repos"></div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-lower">
+            <p>Copyright ©2020 All rights reserved &nbsp;|&nbsp; Jade Hendricks</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
