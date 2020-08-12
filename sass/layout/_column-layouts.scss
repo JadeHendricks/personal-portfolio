@@ -4,12 +4,21 @@
         margin-bottom: 0.5rem;
     }
     &__tag {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
     &__description {
-        line-height: 1.6;
+        line-height: 1.2;
     } 
 }    
+
+@media screen and (max-width: 991px) {
+    .heading-information {
+        margin-bottom: 2.5rem;
+        &__description {
+            font-size: 1.6rem;
+        } 
+    }        
+}
 
 .skills {
     color: $light-grey-1;
@@ -50,7 +59,7 @@
 
 @media screen and (max-width: 991px) {
     .skills {
-        padding: 5rem 0 3rem 0;
+        padding: 16rem 0 3rem 0;
         &__heading {
             margin-bottom: 4rem;
         }
@@ -67,6 +76,12 @@
             width: 2rem;
             height: 2rem;
         }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .skills {
+        padding: 3rem 0 3rem 0;
     }
 }
 
@@ -109,15 +124,15 @@
         justify-content: space-between;
     }
     &__image-container {
-        max-width: 57rem;
-        max-height: 30rem;
+        flex: 15rem;
     }
     &__image {
         width: 100%;
         height: 100%;
     }
     &__information {
-        padding: 0 5rem;
+        flex: 1;
+        padding: 0 4rem;
     }
     &__information > * {
         margin-bottom: 2rem;
@@ -127,19 +142,24 @@
     }
     &__description {
         color: $light-grey-2;
+        font-size: 1.6rem;
     }
     &__tools {
         color: $primary-color;
         margin-bottom: 4rem;
+        font-size: 1.6rem;
+        & span {
+            color: $light-grey-2;
+        }
     }
     &__button-container {
         display: flex;
         justify-content: flex-start;
         margin-bottom: 0;
-        & button {
+        & .button {
             margin-bottom: 0;
         }
-        & button:first-child {
+        & .button:first-child {
             margin-right: 1.5rem;
         }
     }
