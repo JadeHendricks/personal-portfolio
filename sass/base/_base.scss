@@ -29,19 +29,40 @@ body {
     margin: 0 auto;
 }
 
-.home-portfolio {
+.view-more {
     background-color: $grey;
-    padding: 6rem 0;
+    padding: 8rem 0;
     & .heading-information {
+        text-align: center;
+        margin-bottom: 0;
+        &__tag {
+            color: $white;
+            margin-bottom: 4rem;
+        }
         & .button {
             width: 30%;
             display: inline-block;
         }
         & span {
             display: block;
+            color: $white;
             margin: 2rem 0;
             font-size: 1.8rem;
             font-weight: 700;
         }
     }
+}
+
+@media screen and (max-width: 767px) {
+    .view-more {
+        padding: 6rem 0;
+        & .heading-information {
+            &__tag {
+                margin-bottom: 2.5rem;
+            }
+            & .button {
+                width: 70%;
+            }
+        }
+    } 
 }

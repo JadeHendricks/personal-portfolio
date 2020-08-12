@@ -202,8 +202,8 @@
             }
         }
         &__image-container {
-            max-width: 90%;
-            max-height: 90%;
+            max-width: 100%;
+            max-height: 100%;
             margin-bottom: 3rem;
         }
         &__image {
@@ -219,7 +219,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            & button:first-child {
+            & .button:first-child {
                 margin-bottom: 2rem;
                 margin-right: 0;
             }
