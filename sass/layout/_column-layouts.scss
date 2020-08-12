@@ -143,6 +143,9 @@
     &__description {
         color: $light-grey-2;
         font-size: 1.6rem;
+        & > a {
+            color: $primary-color;
+        }
     }
     &__tools {
         color: $primary-color;

@@ -9,6 +9,12 @@
         align-content: center;
         flex-wrap: wrap;
     }
+    & .heading-information {
+        display: none;
+    }
+    & .work-information {
+        display: block!important;
+    }
 }
 
 .work-information {
@@ -45,6 +51,7 @@
    }
    &__information {
        padding: 2rem;
+       height: 20rem;
    }
    &__title {
        margin-bottom: 1.5rem;
@@ -79,6 +86,7 @@
         }
        &__information {
            padding: 1.5rem;
+           height: 18rem;
        }
        &__title {
             margin-bottom: 1rem;
@@ -118,6 +126,9 @@
         &__image-container {
             height: 20rem;
             margin-bottom: 2rem;
+        }
+        &__information {
+            height: auto;
         }
         &__title {
              margin-bottom: 1.5rem;

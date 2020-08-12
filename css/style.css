@@ -347,6 +347,10 @@ strong {
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap; }
+  .work .heading-information {
+    display: none; }
+  .work .work-information {
+    display: block !important; }
 
 .work-information {
   position: absolute;
@@ -377,7 +381,8 @@ strong {
     height: 100%;
     object-fit: cover; }
   .work-card__information {
-    padding: 2rem; }
+    padding: 2rem;
+    height: 20rem; }
   .work-card__title {
     margin-bottom: 1.5rem; }
   .work-card__description {
@@ -400,7 +405,8 @@ strong {
     height: 20rem;
     margin-bottom: 0.5rem; }
   .work-card__information {
-    padding: 1.5rem; }
+    padding: 1.5rem;
+    height: 18rem; }
   .work-card__title {
     margin-bottom: 1rem; }
   .work-card__description {
@@ -426,6 +432,8 @@ strong {
     .work-card__image-container {
       height: 20rem;
       margin-bottom: 2rem; }
+    .work-card__information {
+      height: auto; }
     .work-card__title {
       margin-bottom: 1.5rem; }
     .work-card__description {
@@ -635,6 +643,8 @@ strong {
   .portfolio__description {
     color: #c0c1c6;
     font-size: 1.6rem; }
+    .portfolio__description > a {
+      color: #ffaf29; }
   .portfolio__tools {
     color: #ffaf29;
     margin-bottom: 4rem;
