@@ -21,6 +21,9 @@
     }
     &__information {
         flex: 0 0 60%; 
+        & a {
+            display: inline-block;
+        }
     }
     &__title {
         color: currentColor;

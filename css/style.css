@@ -723,6 +723,8 @@ strong {
     align-items: center; }
   .header__information {
     flex: 0 0 60%; }
+    .header__information a {
+      display: inline-block; }
   .header__title {
     color: currentColor;
     margin-bottom: 1.5rem; }
